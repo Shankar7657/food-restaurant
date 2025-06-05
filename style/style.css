@@ -1,0 +1,102 @@
+.cardbox {
+    width: 1920px;
+    height: 1222px;
+}
+
+.caption {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+}
+
+.title {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+}
+
+.card {
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .imagebox {
+    width: 424px;
+
+}
+
+.card .imagebox img {
+    width: 100%;
+}
+
+.burgerking {
+
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background-color: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 600px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    align-items: center;
+    font-size: 24px;
+
+
+}
+
+h1 {
+    Font: Work Sans;
+    Font weight: 600;
+    Font size: 40pxpx;
+    Row height: 47px;
+    Letter spacing: 0%;
+    Align: Align center;
+}
+
+.card p {
+    Font: Work Sans;
+    Font weight: 500;
+    Font size: 18px;
+    Row height: 28px;
+    Letter spacing: 0%;
+    Align: Align center;
+    opacity: 0.7;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hidden {
+    display: none;
+}
+
+#seeMoreBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#seeMoreBtn:hover {
+    background-color: #0056b3;
+}
